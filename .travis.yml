@@ -1,4 +1,8 @@
 language: java
+install:
+ -
+script:
+ - mvn process-sources
 cache:
   directories:
   - $HOME/.m2
