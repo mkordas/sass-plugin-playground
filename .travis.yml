@@ -3,8 +3,6 @@ install:
  -
 script:
  - rvm get stable
- - gem update bundler
- - gem install curb
  - mvn process-sources
 cache:
   directories:
