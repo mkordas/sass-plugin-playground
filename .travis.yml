@@ -2,8 +2,6 @@ language: java
 install:
  -
 script:
- - rvm get stable
- - gem update bundler
  - mvn process-sources
 cache:
   directories:
